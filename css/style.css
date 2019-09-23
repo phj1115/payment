@@ -1,0 +1,288 @@
+
+
+body{
+    margin: 0;
+}
+
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 375px;
+    padding: 25px 20px 0px 20px;
+    background-color: rgb(255, 255, 255);
+}
+.time {
+    text-align: center;
+}
+.time .text {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+.time .remaining-time {
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.request-list {
+    margin-top: 30px;
+}
+
+.request-list .list {
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.request-list .list .img-wrap {
+    width: 92px;
+    min-width: 92px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.request-list .list .img-wrap img {
+    vertical-align: bottom;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 5px;
+}
+
+.request-list .list .list-text {
+     padding: 8px 20px 12px 15px; 
+}
+
+
+.request-list .list + .list {
+    margin-top: 15px;
+    
+}
+
+.payment-place {
+    font-size: 13px;
+    color: rgb(172, 172, 172);
+    letter-spacing: -0.02em;
+}
+
+.payment-details {
+    font-size: 15px;
+    margin-top: 6px;
+    letter-spacing: -0.02em;
+    color: #333;
+    white-space: normal;
+    line-height: 1.7;
+    height: 3.4em;
+    text-align: left;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    
+}
+
+.container-bg-gray {
+    width: 375px;
+    padding: 0px 20px 20px 20px;
+    background-color: #F7F7F7;
+}
+
+.request-container {
+    background-color: #fff;
+    border: 1px solid #ececec;
+    padding: 15px 20px 15px 20px;
+    margin: 0;
+}
+
+.request-details-title {
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    margin: 0px 0px 11px 5px;
+    padding-top: 26px;
+}
+
+.request-details-list-1 {
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+}
+
+.request-details-list-2 {
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+}
+.request-details-list-3 {
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+}
+
+.request-details-list-name {
+    display: inline;
+    width: 70px;
+    font-size: 13px;
+    color: rgb(172, 172, 172);
+    margin: 0;
+    font-weight: normal;
+}
+
+.request-details-list-name-text {
+    font-size: 15px;
+    color: #333;
+    margin: 0;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+}
+
+
+.request-details-list-title-text {
+    font-size: 15px;
+    color: #333;
+    margin: 0;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+}
+
+
+.request-details-list-price-wrap {
+    display: flex;
+    align-items: baseline;
+}
+.request-details-list-price-wrap_price {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 0.8em;
+    font-weight: bold;
+}
+.request-details-list-price-wrap_won {
+    margin: 0;
+    padding-left: 2px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+.payment-person-container {
+    background-color: #fff;
+    border: 1px solid #ececec;
+}
+
+.payment-person-list-1 {
+    padding: 18px 20px 18px 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.payment-person-name-input {
+    font-size: 15px;
+    color: #333;
+    letter-spacing: -0.02em;
+    margin: 0;
+    text-align: left;
+    font-weight: normal;
+    border: none;
+}
+
+.payment-person-list-2 {
+    border-top: 1px solid #ececec;
+    padding: 18px 20px 18px 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.payment-easypay-container {
+    display: flex;
+}
+
+.payment-easypay-list-1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    flex: 1;
+}
+
+.payment-easypay-list-1:hover {
+    border: 1px solid #191919;
+}
+
+.payment-person-name-input {
+    text-align: center;
+}
+
+.payment-easypay-name-input {
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    margin: 0;  
+    
+}
+
+.payment-easypay-list-1 + .payment-easypay-list-1:hover {
+    border: 1px solid #191919;
+}
+
+.payment-easypay-list-1 + .payment-easypay-list-1 {
+    border-left-color: transparent; 
+}
+
+
+
+
+.img_easypay_wrap {
+    height: 40px;
+}
+
+.btn-pay {
+    background-color: #191919;
+    width: 100%;
+    border-radius: 5px;
+    padding: 14px;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: -0.02em;
+    margin-top: 20px;
+    border: none;
+}
+.btn-pay:hover {
+    background-color: #333;
+    width: 100%;
+    border-radius: 5px;
+    padding: 14px;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: -0.02em;
+    margin-top: 20px;
+    border: none;
+}
+
+.btn-pay:active {
+    background-color: #191919;
+    width: 100%;
+    border-radius: 5px;
+    padding: 14px;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: -0.02em;
+    margin-top: 20px;
+    border: none;
+}
+
